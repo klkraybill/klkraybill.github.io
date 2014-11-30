@@ -1,0 +1,453 @@
+body {
+	font-family: lato;
+	color: white;
+}
+.main-title {
+color: black;
+font-size: 60px;
+text-align: center;
+font-weight: 100;
+margin-top: 24px;
+margin-bottom: 24px;
+}
+
+/* Biology */
+
+.bio-container {
+	width: 980px;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto; 
+	margin-top: 24px;
+	z-index: 2;
+	background: url(../img/heart.jpg) no-repeat;
+	background-size: 980px 600px;
+	position: relative;
+	padding-top: 8px;
+}
+
+.connection-header {
+	color: white;
+	margin-top: 36px;
+	font-size: 40px; 
+	font-weight: 700;
+	text-align: center;
+}
+
+.connection-header:hover {
+	-webkit-transition: all .3s ease-in;
+	 -moz-transition: all .3s ease-in;
+	 -ms-transition: all .3s ease-in;
+	 -o-transition: all .3s ease-in;
+	 transition: all .3s ease-in;
+	 opacity: 1;
+	 transform: scale(1.15);
+	 -ms-transform: scale(1.15); 
+	 -webkit-transform: scale(1.15);
+}
+
+.border-img {
+	margin-left: 370px;
+	margin-top: 16px;
+}
+
+.bio-blurb {
+	width: 350px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 18px;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.bio-blurb:hover {
+	-webkit-transition: all .3s ease-in;
+	 -moz-transition: all .3s ease-in;
+	 -ms-transition: all .3s ease-in;
+	 -o-transition: all .3s ease-in;
+	 transition: all .3s ease-in;
+	 opacity: 1;
+	 transform: scale(1.15);
+	 -ms-transform: scale(1.15); 
+	 -webkit-transform: scale(1.15);
+}
+
+.button-container {
+	margin-left: 235px;
+	margin-top: 36px;
+}
+
+.alarm-container {
+	width: 100px;
+	height: 100px;
+	float: left;
+	padding: 14px;
+	cursor: pointer;
+}
+
+.alarm-container:hover {
+	-webkit-transition: all .3s ease-in;
+	 -moz-transition: all .3s ease-in;
+	 -ms-transition: all .3s ease-in;
+	 -o-transition: all .3s ease-in;
+	 transition: all .3s ease-in;
+	 opacity: 1;
+	 transform: rotate(360deg);
+	 -ms-transform: scale(60deg)); 
+	 -webkit-transform: scale(60deg));
+}
+
+.neuron-container {
+	width: 100px;
+	height: 100px;
+	float: left;
+	padding: 14px;
+	cursor: pointer;
+}
+
+.neuron-container:hover {
+	-webkit-transition: all .3s ease-in;
+	 -moz-transition: all .3s ease-in;
+	 -ms-transition: all .3s ease-in;
+	 -o-transition: all .3s ease-in;
+	 transition: all .3s ease-in;
+	 opacity: 1;
+	 transform: rotate(360deg);
+	 -ms-transform: scale(60deg)); 
+	 -webkit-transform: scale(60deg));
+}
+
+.ball-container {
+	width: 100px;
+	height: 100px;
+	float: left;
+	padding: 14px;
+	cursor: pointer;
+}
+
+.ball-container:hover {
+	-webkit-transition: all .3s ease-in;
+	 -moz-transition: all .3s ease-in;
+	 -ms-transition: all .3s ease-in;
+	 -o-transition: all .3s ease-in;
+	 transition: all .3s ease-in;
+	 opacity: 1;
+	 transform: rotate(360deg);
+	 -ms-transform: scale(60deg)); 
+	 -webkit-transform: scale(60deg));
+}
+
+.money-container {
+	width: 100px;
+	height: 100px;
+	float: left;
+	padding: 14px;
+	cursor: pointer;
+}
+
+.money-container:hover {
+	-webkit-transition: all .3s ease-in;
+	 -moz-transition: all .3s ease-in;
+	 -ms-transition: all .3s ease-in;
+	 -o-transition: all .3s ease-in;
+	 transition: all .3s ease-in;
+	 opacity: 1;
+	 transform: rotate(360deg);
+	 -ms-transform: scale(60deg)); 
+	 -webkit-transform: scale(60deg));
+}
+
+.clearfix {
+	clear: both;
+}
+
+.info-container {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	text-align: center;
+	position: relative;
+}
+
+.alarm-text {
+	border-top: solid 1px white; 
+	border-bottom: solid 1px white;
+	padding: 8px;
+	position: absolute;
+	display: none;
+}
+
+
+.neuron-text {
+	border-top: solid 1px white; 
+	border-bottom: solid 1px white;
+	padding: 8px;
+	position: absolute;
+	display: none;
+}
+
+.ball-text {
+	border-top: solid 1px white; 
+	border-bottom: solid 1px white;
+	padding: 8px;
+	position: absolute;
+	display: none;
+}
+
+.money-text {
+	border-top: solid 1px white; 
+	border-bottom: solid 1px white;
+	padding: 8px;
+	position: absolute;
+	display: none;
+}
+
+/* Pain */
+.pain-container {
+	width: 980px;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto; 
+	margin-top: 24px;
+	z-index: 2;
+	background: url(../img/brain.jpg) no-repeat;
+	background-size: 980px 600px;
+	position: relative;
+	padding-top: 8px;
+}
+
+.pain-header {
+	color: white;
+	margin-top: 36px;
+	font-size: 40px; 
+	font-weight: 700;
+	text-align: center;
+}
+
+.pain-header:hover {
+	-webkit-transition: all .3s ease-in-out;
+	 -moz-transition: all .3s ease-in-out;
+	 -ms-transition: all .3s ease-in-out;
+	 -o-transition: all .3s ease-in-out;
+	 transition: all .3s ease-in-out;
+	 opacity: 1;
+	 transform: scale(1.1);
+	 -ms-transform: scale(1.1); 
+	 -webkit-transform: scale(1.1);
+}
+
+.border-img {
+	margin-left: 370px;
+	margin-top: 16px;
+}
+
+.pain-blurb {
+	width: 350px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 18px;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.pain-blurb:hover {
+	-webkit-transition: all .3s ease-in;
+	 -moz-transition: all .3s ease-in;
+	 -ms-transition: all .3s ease-in;
+	 -o-transition: all .3s ease-in;
+	 transition: all .3s ease-in;
+	 opacity: 1;
+	 transform: scale(1.15);
+	 -ms-transform: scale(1.15); 
+	 -webkit-transform: scale(1.15);
+}
+
+.pill-container {
+height: 200px;
+width: 200px;
+margin-left: 150px;
+margin-top: 60px;
+cursor: pointer;
+}
+
+.pill-container:hover {
+	-webkit-transition: all .3s ease-in;
+	 -moz-transition: all .3s ease-in;
+	 -ms-transition: all .3s ease-in;
+	 -o-transition: all .3s ease-in;
+	 transition: all .3s ease-in;
+	 opacity: 1;
+	 transform: scale(1.15);
+	 -ms-transform: scale(1.15); 
+	 -webkit-transform: scale(1.15);
+}
+
+.pill-text {
+width: 320px;
+text-align: center;
+margin-left: 550px;
+margin-top: -140px;
+position: relative;
+opacity: 0;
+}
+
+.pill-active {
+	-webkit-transition: all .3s ease-in;
+	 -moz-transition: all .3s ease-in;
+	 -ms-transition: all .3s ease-in;
+	 -o-transition: all .3s ease-in;
+	 transition: all .3s ease-in;
+	 opacity: 1;
+	transform:translateY(-40px);
+}
+
+.pill-inactive {
+	-webkit-transition: all .3s ease-out;
+	 -moz-transition: all .3s ease-out;
+	 -ms-transition: all .3s ease-out;
+	 -o-transition: all .3s ease-out;
+	 transition: all .3s ease-out;
+	 opacity: 0;
+	transform:translateY(40px);
+}
+
+/* Symmetry */
+
+.sym-container {
+	width: 980px;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto; 
+	margin-top: 24px;
+	z-index: 2;
+	background: url(../img/eyes.jpg) no-repeat;
+	background-size: 980px 600px;
+	position: relative;
+	padding-top: 8px;
+}
+
+.sym-header {
+	color: white;
+	margin-top: 36px;
+	font-size: 40px; 
+	font-weight: 700;
+	text-align: center;
+}
+
+.sym-header:hover {
+	-webkit-transition: all .3s ease-in;
+	 -moz-transition: all .3s ease-in;
+	 -ms-transition: all .3s ease-in;
+	 -o-transition: all .3s ease-in;
+	 transition: all .3s ease-in;
+	 opacity: 1;
+	 transform: scale(1.15);
+	 -ms-transform: scale(1.15); 
+	 -webkit-transform: scale(1.15);
+}
+
+.border-img {
+	margin-left: 370px;
+	margin-top: 16px;
+}
+
+.sym-blurb {
+	width: 350px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 18px;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.sym-blurb:hover {
+	-webkit-transition: all .3s ease-in;
+	 -moz-transition: all .3s ease-in;
+	 -ms-transition: all .3s ease-in;
+	 -o-transition: all .3s ease-in;
+	 transition: all .3s ease-in;
+	 opacity: 1;
+	 transform: scale(1.15);
+	 -ms-transform: scale(1.15); 
+	 -webkit-transform: scale(1.15);
+}
+
+.button-container {
+	margin-left: 255px;
+	margin-top: 36px;
+}
+
+
+
+.male-container {
+	width: 150;
+	height: 150;
+	float: left;
+	padding: 14px;
+	cursor: pointer;
+}
+
+.male-container:hover {
+	-webkit-transition: all .3s ease-in;
+	 -moz-transition: all .3s ease-in;
+	 -ms-transition: all .3s ease-in;
+	 -o-transition: all .3s ease-in;
+	 transition: all .3s ease-in;
+	 opacity: 1;
+	 transform: rotate(360deg);
+	 -ms-transform: scale(60deg)); 
+	 -webkit-transform: scale(60deg));
+}
+
+.both-container {
+	width: 150;
+	height: 150;
+	float: left;
+	padding: 14px;
+	cursor: pointer;
+}
+
+.both-container:hover {
+	-webkit-transition: all .3s ease-in;
+	 -moz-transition: all .3s ease-in;
+	 -ms-transition: all .3s ease-in;
+	 -o-transition: all .3s ease-in;
+	 transition: all .3s ease-in;
+	 opacity: 1;
+	 transform: rotateZ(360deg);
+	 -ms-transform: scale(60deg)); 
+	 -webkit-transform: scale(60deg));
+}
+
+.clearfix {
+	clear: both;
+}
+
+.male-text {
+	width: 250px;
+	text-align: center;
+	float: left;
+	margin-left: 220px;
+	margin-top: 30px
+}
+
+.both-text {
+	width: 250px;
+	text-align: center;
+	float: left;
+	margin-left: 30px;
+	margin-top: 30px
+}
+
+.male-text2 {
+	display: none;
+}
+
+.both-text2 {
+	display: none;
+}
+
